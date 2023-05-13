@@ -36,10 +36,18 @@
 - si se hace un buen diseño de la pagina web no hace falta pagar y la pagina sera mas indexable.
 - SEO (search engine optmization, estrategia organica), SEM(Search engine marketing, estrategia pagada)
 - para asegurar que nuestra pagina sea indexable deberá tener mejos estructura y diseño.
-  ![Drag Racing](https://pedestalsearch.com/wp-content/uploads/2013/03/seo-v-sem-min.png)
+  ![SEO vs SEM](https://pedestalsearch.com/wp-content/uploads/2013/03/seo-v-sem-min.png)
 
 - el form me permite crear etiquetas dinamicas
 
 - las barras de navegacion deben ser vistas como una lista de opciones que vienen desde una DB, el nav siempre tiene tipo lista.
 
 - el nav tiene una lista de opciones proporcionadopor el backend
+
+## Eliminar las credenciales 
+
+1. Eliminar en Administracion de credencials, poner Quitar
+
+2. para clonar github
+
+        git clone url
