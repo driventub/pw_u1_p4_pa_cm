@@ -51,3 +51,47 @@
 2. para clonar github
 
         git clone url
+
+## Taller 4: CSS
+
+debe tener almenos 3 elementos 
+
+- Html (se complementa con css para organizar la estructura)
+- CSS (complementa con los estilos)
+- JavaScript
+
+- CSS 3:
+
+tenemos 2 alternativas para programar con CSS3
+-                Facil   Correcto
+- en linea        (3)       (1)
+- css internos    (2)       (2)
+- css externos    (1)       (3)
+
+- los archivos __externos__ son creados fuera de la pagina web y se deben ubicar en la carpeta css. Se pueden reutilizar en todo el proyecto.
+- cuando se ponen los estilos en __línea__ (a nivel de elemento) tendria que volverse a programar. 
+- los archivos __internos__ se pueden reutilizar dentro del mismo archivo.
+
+### Selectores
+
+- Los selectores son: elementos elegibles para el estilo.  
+
+- solo en internos y externos se aplica el concepto de selectores.
+
+-Esctructura: 
+
+        selector{
+          propiedad : valor;  //Declaracion
+          propiedad : valor;  //Otra Declaracion
+          color :red; // ejemplo
+          
+        }
+
+- Existen 6 tipos de lselectores:
+
+- 1 Universales (no muy usado pero aplica a todos los elementos).
+- 2 Por tipo de elemento (aplica para todos los elementos del mismo tipo por ejemplo a todos los botones).
+- 3 Selector clase (se pueden clasificar y aplicarlos a esos elementos clasificados por ejemplo botones de borrar).
+- 4 Selector por ID (me permite hacer elegibles a los elemtos por un id y aplicarles el estilo).
+- 5 Selector por atributo (se aplican a los elementos dependiendo del atributo por ejemplo usar un estilo a todos los elementos que tengan el atributo src,img,png).
+- 6 Selector de pseudo-Clase (Se lo utiliza para eventos ejemplo, cuando el mouse pasa encima de un elemento y el estilo de dicho elemento cambiara).
