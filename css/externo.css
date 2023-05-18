@@ -1,0 +1,41 @@
+
+* {
+    color: yellowgreen;
+    size: 20px;
+}  
+h1 {
+  color: blue;
+}
+
+p{
+  background-color: brown;
+  size: 17px;
+  color: white;
+}
+
+.clase1 {
+  color: black;
+}
+
+.clase2 {
+  color: brown;
+  background-color: aqua;
+}
+
+#idTituloGrande{
+  color: green
+}
+
+a[href*="es"]{
+  color: red;
+}
+/* img[alt*="puede"]{
+  display: block;
+  height: max-content;
+} */
+
+/* label:hover{
+  color: blueviolet;
+  background-color: aquamarine;
+  font-size: 25px;
+} */

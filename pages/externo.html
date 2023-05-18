@@ -12,62 +12,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Titulo de la pagina web -->
-    <title>Otra cosa</title>
+    <title>Otra cosa mas</title>
+    <link rel="stylesheet" href="/css/externo.css" />
     <!--Selector Universal-->
-    <style>
-      * {
-          color: yellowgreen;
-          size: 20px;
-      }  
-      h1 {
-        color: blue;
-      }
-
-      p{
-        background-color: brown;
-        size: 17px;
-        color: white;
-      }
-
-      .clase1 {
-        color: black;
-      }
-
-      .clase2 {
-        color: brown;
-        background-color: aqua;
-      }
-
-      #idTituloGrande{
-        color: green
-      }
-
-      a[href*="es"]{
-        color: red;
-      }
-      /* img[alt*="puede"]{
-        display: block;
-        height: max-content;
-      } */
-
-      /* label:hover{
-        color: blueviolet;
-        background-color: aquamarine;
-        font-size: 25px;
-      } */
-
-    </style>
   </head>
 
   <!-- contenido de la pagina web -->
   <body>
     <header>
       <img
-        src="./img/Cabecera.PNG"
+        src="../img/Cabecera.PNG"
         alt="Si se pudo y siempre se podra que viva la patria"
       />
-      <h1 style="color:red">Banco Pichincha</h1>
-      <h6 style="background-color: aliceblue; color: aqua;">Banco Pichincha</h6>
+      <h1>Banco Pichincha</h1>
+      <h6>Banco Pichincha</h6>
       <h4 class="clase1">selector de clase 1</h4>
       <h3 class="clase2">selector de clase 2</h3>
       <h2 id="idTituloGrande">Selector de Id</h2>
@@ -85,24 +43,24 @@
         <li>Servicios</li>-->
 
         <li>
-          <a href="http://127.0.0.1:5500/pages/externo.html"> Externo </a>
+          <a href="http://127.0.0.1:5500/index.html"> Index </a>
         </li>
 
         <li>
           <a href="https://www.google.com/?hl=es"> Google </a>
         </li>
 
-          <li>
-            <a href="https://outlook.live.com/owa/">Hotmail</a>
+        <li>
+          <a href="https://outlook.live.com/owa/">Hotmail</a>
         </li>
         <li>
           <a href="https://www.nokia.com/es_int/">Apple</a>
         </li>
-        
+
         <label for="idApellido">Nombre</label>
-        <input id="idNombre" type="text">
+        <input id="idNombre" type="text" />
         <label for="idNombre">Apellido</label>
-        <input id="idApellido" type="text">
+        <input id="idApellido" type="text" />
       </ul>
     </nav>
     <section>

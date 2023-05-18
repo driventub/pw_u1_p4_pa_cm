@@ -78,7 +78,7 @@ tenemos 2 alternativas para programar con CSS3
 
 - solo en internos y externos se aplica el concepto de selectores.
 
--Esctructura: 
+-Estructura: 
 
         selector{
           propiedad : valor;  //Declaracion
@@ -94,4 +94,25 @@ tenemos 2 alternativas para programar con CSS3
 - 3 Selector clase (se pueden clasificar y aplicarlos a esos elementos clasificados por ejemplo botones de borrar).
 - 4 Selector por ID (me permite hacer elegibles a los elemtos por un id y aplicarles el estilo).
 - 5 Selector por atributo (se aplican a los elementos dependiendo del atributo por ejemplo usar un estilo a todos los elementos que tengan el atributo src,img,png).
+#### Tiene dos variaciones:
+
+- 1 me dice un tipo de selector, el atributo que contiene un elemento.
+
+-  2 por tipo de atributo y que conmtenga un valor.
+- No es parametrizable
+
 - 6 Selector de pseudo-Clase (Se lo utiliza para eventos ejemplo, cuando el mouse pasa encima de un elemento y el estilo de dicho elemento cambiara).
+
+### Taller 5:
+
+- para seleccionar una clase usamos "."
+- para seleccionar un evento usamos ":"
+- para seleccionar un id usamos "#"
+
+- cuando usamos un atributo dentro del elemento lo llamamos con "[]"
+- ejemplo: "a[href*="es"]"
+- for: para quien construyo este elemento
+#### Manera externa de llamar css
+
+- se utilizar archivos externos de extensión: .css
+
