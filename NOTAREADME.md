@@ -79,7 +79,7 @@ tenemos 2 alternativas para programar con CSS3
 - solo en internos y externos se aplica el concepto de selectores.
 
 -Estructura: 
-
+        
         selector{
           propiedad : valor;  //Declaracion
           propiedad : valor;  //Otra Declaracion
@@ -116,3 +116,23 @@ tenemos 2 alternativas para programar con CSS3
 
 - se utilizar archivos externos de extensión: .css
 
+### Taller 6
+- DOM: Document Object Model
+ ![Arbol de elementos html](img/dom.gif)
+
+
+- cuando no aplicamos ningun estilo a nuestros elementos html, la distribucion suele ser uno debajo de otro(excepciones: label, input)
+
+- `display` : para decir a un elemento como se va a ubicar
+
+- el espacio entre elementos es margen
+- contenido lo que se visualiza 
+- borde: el espacio imaginario que rodea al elemento
+- el espacio entre el contenido y el borde padding
+
+
+         margin: 1px 2px 3px 4px;
+
+- orientacion de elementos `text-align`
+
+- elemento que nos permite agrupar elementos html
