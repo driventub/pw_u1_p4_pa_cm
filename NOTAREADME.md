@@ -144,3 +144,15 @@ tenemos 2 alternativas para programar con CSS3
 - el `float : left` va a mandar todo el contenido a la izquierda, excepto del estilo donde se esta llamando a llamar a la propiedad
 
 ### JavaScript Intro
+
+- Las primeras paginas eran estaticas, client side
+- Desde hace 17 años es posible editar con JavaScript backend y frontend, repotenciado en frameworks
+- Node.js : runtime para ejectuar codigo en el backend
+- Ultima version de Javascript 2021
+- Tipos de declaracion :
+  - En linea: a nivel de elemento
+  - Internas: dentro del documento html
+  - Externas: afuera del documento html
+
+- En su mayoria un boton ejecuta Javascript(evento)
+- Los eventos empiezan con la palabra `on` dentro de un elemento y se van a declarar como atributos.
