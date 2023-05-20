@@ -79,13 +79,15 @@ tenemos 2 alternativas para programar con CSS3
 - solo en internos y externos se aplica el concepto de selectores.
 
 -Estructura: 
-        
-        selector{
-          propiedad : valor;  //Declaracion
-          propiedad : valor;  //Otra Declaracion
-          color :red; // ejemplo
-          
-        }
+
+ ```css
+ selector{
+   propiedad : valor;  //Declaracion
+   propiedad : valor;  //Otra Declaracion
+   color :red; // ejemplo
+   
+ }
+ ```
 
 - Existen 6 tipos de lselectores:
 
@@ -136,3 +138,9 @@ tenemos 2 alternativas para programar con CSS3
 - orientacion de elementos `text-align`
 
 - elemento que nos permite agrupar elementos html
+
+### Taller 7
+
+- el `float : left` va a mandar todo el contenido a la izquierda, excepto del estilo donde se esta llamando a llamar a la propiedad
+
+### JavaScript Intro

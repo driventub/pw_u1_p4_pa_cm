@@ -59,7 +59,32 @@ article{
     background-color: bisque;
 }
 
+.referencias{
+    border: 1px solid brown;   
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    background-color: burlywood;
+    margin-right: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+}
 
+article footer{
+    color: darkgoldenrod;
+    text-align: right;
+}
+
+.pie{
+    clear: both;
+}
+
+ article img[alt*="imagen"]{
+    width: 200px;
+    height: 200px;
+}
 /* * {
     background-color: beige;
 } */
