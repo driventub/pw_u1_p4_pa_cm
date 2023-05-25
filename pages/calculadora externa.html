@@ -6,33 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <script>
-
-      function parsear(id) {
-        var numero=parseInt(document.getElementById(id).value) ;
-        return numero
-      }
-
-      function sumarNumeros() {
-        document.getElementById('idLabelResultado').innerHTML='Resultado :  ' + (parsear('idNum1')+parsear('idNum2'));
-      }
-
-      function restarNumeros() {
-        document.getElementById('idLabelResultado').innerHTML='Resultado :  ' + (parsear('idNum1')-parsear('idNum2'));
-      }
-
-
-      function multiplicarNumeros() {
-        document.getElementById('idLabelResultado').innerHTML='Resultado :  ' + (parsear('idNum1')*parsear('idNum2'));
-      }
-
-      function dividirNumeros() {
-        document.getElementById('idLabelResultado').innerHTML='Resultado :  ' + (parsear('idNum1')/parsear('idNum2'));
-      }
-
+    <script src="../js/calculadora.js" >
     </script>
-
-
 
   </head>
   <body>
@@ -53,7 +28,15 @@
       <button onclick="multiplicarNumeros()">Multiplicar</button>
       <button onclick="dividirNumeros()">Dividir</button>
 
+      
+      <button onclick="eliminarElemento()">Eliminar</button>
+      <button onclick="insertarElemento()">Insertar</button>
       <label id="idLabelResultado" for="">Resultado: </label>
+
+
+      <label id="idEliminar" for="">Eliminar</label>
+      
+      <div id="elemento"> </div>
     </section>
     <footer></footer>
   </body>

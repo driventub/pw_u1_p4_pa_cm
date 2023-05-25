@@ -156,3 +156,20 @@ tenemos 2 alternativas para programar con CSS3
 
 - En su mayoria un boton ejecuta Javascript(evento)
 - Los eventos empiezan con la palabra `on` dentro de un elemento y se van a declarar como atributos.
+
+### Taller 9 
+
+- dependiendo del contexto de cada declaracion a pesar que las comillas simples y dobles son similares, no se aplica siempre
+
+- cuando usamos js usamos funciones quye representan a los metodos de java.
+
+- La sintaxis en un metodo normal es:
+``` javascript
+function [nombre de la funcion] (args1,args2){
+  return ;
+}
+
+```
+- no se especifica el tipo de dato a tratar.
+- no es necesario especificart el tipo de dato de salida ni entrada.
+
