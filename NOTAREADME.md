@@ -127,7 +127,7 @@ selector {
 
 - cuando no aplicamos ningun estilo a nuestros elementos html, la distribucion suele ser uno debajo de otro(excepciones: label, input)
 
-- `display` : para decir a un elemento como se va a ubicar
+- `mostrar` : para decir a un elemento como se va a ubicar
 
 - el espacio entre elementos es margen
 - contenido lo que se visualiza

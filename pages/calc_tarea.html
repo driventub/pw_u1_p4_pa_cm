@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea 4</title>
+    <script src="../js/calcTarea.js"></script>
+    <link rel="stylesheet" href="/css/externo.css" />
+  </head>
+  <body>
+    <div>
+      <table class="center">
+        <tr>
+          <td colspan="3">
+            <!-- para que solo se puedan utilizar los botones -->
+            <input type="text" id="ingreso" disabled />
+          </td>
+
+          <td>
+            <input type="button" value="C" onclick="borrar()" id="borrar" />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="1" onclick="mostrar('1')" /></td>
+          <td><input type="button" value="2" onclick="mostrar('2')" /></td>
+          <td><input type="button" value="3" onclick="mostrar('3')" /></td>
+          <td><input type="button" value="/" onclick="mostrar('/')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" onclick="mostrar('4')" /></td>
+          <td><input type="button" value="5" onclick="mostrar('5')" /></td>
+          <td><input type="button" value="6" onclick="mostrar('6')" /></td>
+          <td><input type="button" value="-" onclick="mostrar('-')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="7" onclick="mostrar('7')" /></td>
+          <td><input type="button" value="8" onclick="mostrar('8')" /></td>
+          <td><input type="button" value="9" onclick="mostrar('9')" /></td>
+          <td><input type="button" value="+" onclick="mostrar('+')" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="." onclick="mostrar('.')" /></td>
+          <td><input type="button" value="0" onclick="mostrar('0')" /></td>
+
+          <td><input type="button" value="=" onclick="calcular()" /></td>
+          <td><input type="button" value="*" onclick="mostrar('*')" /></td>
+        </tr>
+      </table>
+    </div>
+    <div class="res">
+      <label for="">Resultado: </label>
+      <label id="resultado" for=""></label>
+    </div>
+  </body>
+</html>
