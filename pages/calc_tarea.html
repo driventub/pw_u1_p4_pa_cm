@@ -4,53 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tarea 4</title>
-    <script src="../js/calcTarea.js"></script>
-    <link rel="stylesheet" href="/css/externo.css" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/externo.css" />
+    <script src="../js/calculadora.js"></script>
   </head>
+
   <body>
-    <div>
-      <table class="center">
-        <tr>
-          <td colspan="3">
-            <!-- para que solo se puedan utilizar los botones -->
-            <input type="text" id="ingreso" disabled />
-          </td>
+    <header class="cabeza">
+      <h1>La mejor calculadora del mundo sin anuncios</h1>
+    </header>
+    <nav class="cuadroResultado"></nav>
+    <section class="numeros">
 
-          <td>
-            <input type="button" value="C" onclick="borrar()" id="borrar" />
-          </td>
-        </tr>
-        <tr>
-          <td><input type="button" value="1" onclick="mostrar('1')" /></td>
-          <td><input type="button" value="2" onclick="mostrar('2')" /></td>
-          <td><input type="button" value="3" onclick="mostrar('3')" /></td>
-          <td><input type="button" value="/" onclick="mostrar('/')" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="4" onclick="mostrar('4')" /></td>
-          <td><input type="button" value="5" onclick="mostrar('5')" /></td>
-          <td><input type="button" value="6" onclick="mostrar('6')" /></td>
-          <td><input type="button" value="-" onclick="mostrar('-')" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="7" onclick="mostrar('7')" /></td>
-          <td><input type="button" value="8" onclick="mostrar('8')" /></td>
-          <td><input type="button" value="9" onclick="mostrar('9')" /></td>
-          <td><input type="button" value="+" onclick="mostrar('+')" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="." onclick="mostrar('.')" /></td>
-          <td><input type="button" value="0" onclick="mostrar('0')" /></td>
+      <div class="container">
+       
+        <div class="calculadora">
+          
+          <label id="idLabelResultado" for="" class="result"> </label>
 
-          <td><input type="button" value="=" onclick="calcular()" /></td>
-          <td><input type="button" value="*" onclick="mostrar('*')" /></td>
-        </tr>
-      </table>
-    </div>
-    <div class="res">
-      <label for="">Resultado: </label>
-      <label id="resultado" for=""></label>
-    </div>
+          <button onclick="agregar(1)">1</button>
+          <button onclick="agregar(2)">2</button>
+          <button onclick="agregar(3)">3</button>
+
+          <button onclick="agregar('+')" class="mas">+</button>
+
+          <button onclick="agregar(4)">4</button>
+          <button onclick="agregar(5)">5</button>
+          <button onclick="agregar(6)">6</button>
+
+          <button onclick="agregar('-')">-</button>
+
+          <button onclick="agregar(7)">7</button>
+          <button onclick="agregar(8)">8</button>
+          <button onclick="agregar(9)">9</button>
+
+          <button onclick="agregar('÷')">÷</button>
+
+          
+          <button onclick="agregar(0)" class="cero">0</button>
+          <button onclick="calcular()">=</button>
+          <button onclick="agregar('x')">x</button>
+          
+
+          
+        </div>
+      </div>
+    </section>
+    <footer class="limpieza">
+      <button onclick="eliminarElemento()">Limpiar</button>
+    </footer>
   </body>
 </html>

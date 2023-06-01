@@ -229,5 +229,31 @@ const [elem1,elem2,elem3] = elems
 
 ```
 
-
+el elemento general es llamado container
 probando algo
+
+### Taller 11
+
+``` javascript
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora{
+  display: grid;
+  grid-template-columns: repeat(4,75px);
+  background-color: salmon;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+/* .mas{
+  grid-row: span 2; vertical
+} */
+
+ .cero{/*boton grande horizontal*/
+  grid-column: span 2;
+}
+```
