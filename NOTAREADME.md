@@ -247,7 +247,7 @@ probando algo
   background-color: salmon;
   padding: 20px;
   border-radius: 35px;
-}
+} 
 
 /* .mas{
   grid-row: span 2; vertical
@@ -262,14 +262,17 @@ probando algo
 - cuando se habla de esto, es informacion que se va a pasar al backend 
 - todos los elementos que quiero que se envien a mi backend, tiene que estar dentro de un elemento `<form></form>`
 - metodo y direccion 
-- direccion una ruta (URL ) a la que se va a enviar mi informacion, se lo define dentro del `form` en el atributo `action`
+- direccion una ruta (URL ) a la que se va a enviar mi informacion, se lo define dentro del `form` en el atributo `action` url de la api y `method` es el tipo de request o verbo Http
 - request a api, cuando mandamos los datos
  ![Request y Response HTML](img/requ_response.PNG)
 
 - verbos: PUT-GET-POST-INSERT-PATCH-DELETE
 - recurso-> business object-> entidad-> tabla
-- POST: insertar, agregar, crear un recurso(mas pesado)
+- POST: insertar, agregar, crear un recurso (mas pesado)
 - PUT: actualizar, modificar un recurso
 - PATCH: actualizar, modificar parcialmente un recurso
 - DELETE: eliminar un recurso
-- GET: consultar un recurso(mas ligero)
+- GET: consultar un recurso (mas ligero)
+
+- esta compuesta por un `label` que es el nombre del campo y un `input` para insertar la informacion
+
